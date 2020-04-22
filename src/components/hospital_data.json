@@ -1,0 +1,108 @@
+{
+  "datahospitales": [
+    {
+      "casosxdistrito": {
+        "data": [
+          { "name": "JESUS MARIA", "cant": 475 },
+          { "name": "LIMA", "cant": 385 },
+          { "name": "MIRAFLORES", "cant": 109 },
+          { "name": "SAN BORJA", "cant": 100 },
+          { "name": "SANTIAGO DE SURCO", "cant": 84 },
+          { "name": "LA VICTORIA", "cant": 78 },
+          { "name": "EL AGUSTINO", "cant": 72 },
+          { "name": "SAN MARTIN DE PORRES", "cant": 71 },
+          { "name": "BARRANCO", "cant": 69 },
+          { "name": "COMAS", "cant": 67 },
+          { "name": "ATE", "cant": 61 },
+          { "name": "VILLA EL SALVADOR", "cant": 59 },
+          { "name": "SAN ISIDRO", "cant": 52 },
+          { "name": "MAGDALENA DEL MAR", "cant": 47 },
+          { "name": "SAN JUAN DE LURIGANCHO", "cant": 42 },
+          { "name": "SAN MIGUEL", "cant": 41 },
+          { "name": "SANTA ANITA", "cant": 38 },
+          { "name": "SAN JUAN DE MIRAFLORES", "cant": 33 },
+          { "name": "LA MOLINA", "cant": 30 },
+          { "name": "PUEBLO LIBRE", "cant": 28 },
+          { "name": "OTROS", "cant": 100 }
+        ],
+        "fecha_actualizacion": "4/04/2020"
+      }
+    },
+    {
+      "hospitalizados": [
+        {
+          "entidad": {
+            "data": [
+              { "name": "EsSalud", "cant": 27 },
+              { "name": "SIS", "cant": 14 },
+              { "name": "Privados", "cant": 9 }
+            ]
+          }
+        },
+        {
+          "condicion": {
+            "data": [
+              { "name": "Sin oxigeno", "cant": 21 },
+              { "name": "Con oxigeno", "cant": 11 },
+              { "name": "UCI sin VM", "cant": 6 },
+              { "name": "UCI con VM", "cant": 12 }
+            ]
+          }
+        },
+        {
+          "evolucion": {
+            "data": [
+              { "name": "Favorable", "cant": 4 },
+              { "name": "Estacionario", "cant": 28 },
+              { "name": "Desfavorable", "cant": 6 }
+            ]
+          }
+        },
+        {
+          "egreso": {
+            "data": [
+              { "name": "Alta medica", "cant": 12 },
+              { "name": "Fallecidos", "cant": 8 }
+            ]
+          }
+        }
+      ],
+      "fecha_actualizacion": "24/03/2020"
+    },
+    {
+      "hospitales_neumonia": {
+        "data": [
+          {
+            "name": "Essalud",
+            "casosxhospital": [
+              { "name": "HOSPITAL EDGARDO REBAGLIATI", "cant": 15 },
+              { "name": "HOSPITAL GUILLERMO ALMENARA", "cant": 3 },
+              { "name": "HOSPITAL VOTO BERNALES", "cant": 1 }
+            ],
+            "casos_total": 19
+          },
+          {
+            "name": "MINSA",
+            "casosxhospital": [
+              { "name": "HOSPITAL DOS DE MAYO", "cant": 9 },
+              { "name": "HOSPITAL VILLA EL SALVADOR", "cant": 1 }
+            ],
+            "casostotal": 10
+          },
+          {
+            "name": "PRIVADO",
+            "casosxhospital": [
+              { "name": "CLINICA CAYETANO", "cant": 1 },
+              { "name": "CLINICA DELGADO", "cant": 3 },
+              { "name": "CLINICA INTERNACIONAL", "cant": 3 },
+              { "name": "CLINICA SAN FELIPE", "cant": 1 },
+              { "name": "CLINICA SAN PABLO", "cant": 1 }
+            ],
+            "casostotal": 9
+          }
+        ]
+      },
+      "fecha_actualizacion": "24/03/2020"
+    }
+  ]
+}
